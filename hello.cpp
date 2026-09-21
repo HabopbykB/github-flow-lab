@@ -1,6 +1,12 @@
 #include <iostream>
+#include <string>
+
+// Функция выводит переданное приветствие в консоль
+void printGreeting(const std::string& message) {
+    std::cout << message << std::endl;
+}
 
 int main() {
-    std::cout << "Hello, GitHub Flow!" << std::endl;
+    printGreeting("Hello, GitHub Flow!");
     return 0;
 }
